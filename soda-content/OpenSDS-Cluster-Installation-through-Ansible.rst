@@ -36,19 +36,20 @@ Install following packages:
 
 -  docker
 
-    Install docker:
+    Install docker and docker compose:
 
     .. code:: bash
 
-        wget https://download.docker.com/linux/ubuntu/dists/xenial/pool/stable/amd64/docker-ce_18.06.1~ce~3-0~ubuntu_amd64.deb
-        dpkg -i docker-ce_18.06.1~ce~3-0~ubuntu_amd64.deb
+        #Add Docker’s official GPG key:
+        curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+        
+        #Update repository
+        sudo apt update
+        
+        # Install Docker and Docker compose
+        sudo apt install docker-ce docker-compose
 
-    Install docker-compose:
-
-    .. code:: bash
-
-        curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-        chmod +x /usr/local/bin/docker-compose
+    .. image:: /soda-content/img/docker-install.png
 
 -  golang
 
