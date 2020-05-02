@@ -28,4 +28,9 @@ Type Of RAIDs
    /harddrivemount/zfsconfig
    /nat-network/nat
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: OpenSDS
 
+   /soda-content/OpenSDS-Cluster-Installation-through-Ansible
