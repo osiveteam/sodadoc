@@ -34,3 +34,4 @@ Type Of RAIDs
    :caption: OpenSDS
 
    /soda-content/OpenSDS-Cluster-Installation-through-Ansible
+   /soda-content/Opensds-screen-flow
